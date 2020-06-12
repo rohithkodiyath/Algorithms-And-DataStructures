@@ -48,6 +48,7 @@ public class LargestInConnectedComponent {
 			maxElement[rootP] = max(maxElement[rootP], maxElement[rootQ]);
 		}
 		numberOfConnectedComponents --;
+		
 	}
 	
 	public int find(int p) {
