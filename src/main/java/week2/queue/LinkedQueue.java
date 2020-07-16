@@ -34,7 +34,7 @@ public class LinkedQueue<T> implements Queue<T> {
 		private Node<T> next;
 	}
 	
-	//ass new nodes at the end of linked list
+	//add new nodes at the end of linked list
 	public void enQueue(T data) {
 		Node<T> newNode = new Node<T>();
 		newNode.data = data;
